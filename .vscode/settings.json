@@ -17,7 +17,7 @@
   "files.autoSave": "afterDelay",
   "screencastMode.onlyKeyboardShortcuts": true,
   "terminal.integrated.fontSize": 18,
-  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorTheme": "Red",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
   "python.analysis.autoFormatStrings": true
