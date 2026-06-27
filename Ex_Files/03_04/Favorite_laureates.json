@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Sir Chandrasekhara Venkata",
+    "surname": "Raman",
+    "born": "1888-11-07",
+    "died": "1970-11-21",
+    "birthplace": "India",
+    "motivation": "for his work on the scattering of light and for the discovery of the effect named after him",
+    "category": "physics",
+    "year": "1930"
+  },
+  {
+    "name": "Abdus",
+    "surname": "Salam",
+    "born": "1926-01-29",
+    "died": "1996-11-21",
+    "birthplace": "India (now Pakistan)",
+    "motivation": "for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current",
+    "category": "physics",
+    "year": "1979"
+  },
+  {
+    "name": "Subramanyan",
+    "surname": "Chandrasekhar",
+    "born": "1910-10-19",
+    "died": "1995-08-21",
+    "birthplace": "India (now Pakistan)",
+    "motivation": "for his theoretical studies of the physical processes of importance to the structure and evolution of the stars",
+    "category": "physics",
+    "year": "1983"
+  },
+  {
+    "name": "Ronald",
+    "surname": "Ross",
+    "born": "1857-05-13",
+    "died": "1932-09-16",
+    "birthplace": "India",
+    "motivation": "for his work on malaria, by which he has shown how it enters the organism and thereby has laid the foundation for successful research on this disease and methods of combating it",
+    "category": "medicine",
+    "year": "1902"
+  },
+  {
+    "name": "H. Gobind",
+    "surname": "Khorana",
+    "born": "1922-01-09",
+    "died": "2011-11-09",
+    "birthplace": "India",
+    "motivation": "for their interpretation of the genetic code and its function in protein synthesis",
+    "category": "medicine",
+    "year": "1968"
+  },
+  {
+    "name": "Rudyard",
+    "surname": "Kipling",
+    "born": "1865-12-30",
+    "died": "1936-01-18",
+    "birthplace": "British India (now India)",
+    "motivation": "in consideration of the power of observation, originality of imagination, virility of ideas and remarkable talent for narration which characterize the creations of this world-famous author",
+    "category": "literature",
+    "year": "1907"
+  },
+  {
+    "name": "Rabindranath",
+    "surname": "Tagore",
+    "born": "1861-05-07",
+    "died": "1941-08-07",
+    "birthplace": "India",
+    "motivation": "because of his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West",
+    "category": "literature",
+    "year": "1913"
+  },
+  {
+    "name": "Amartya",
+    "surname": "Sen",
+    "born": "1933-11-03",
+    "died": "0000-00-00",
+    "birthplace": "India",
+    "motivation": "for his contributions to welfare economics",
+    "category": "economics",
+    "year": "1998"
+  },
+  {
+    "name": "Muhammad",
+    "surname": "Yunus",
+    "born": "1940-06-28",
+    "died": "0000-00-00",
+    "birthplace": "British India (now Bangladesh)",
+    "motivation": "for their efforts to create economic and social development from below",
+    "category": "peace",
+    "year": "2006"
+  },
+  {
+    "name": "Venkatraman",
+    "surname": "Ramakrishnan",
+    "born": "1952-00-00",
+    "died": "0000-00-00",
+    "birthplace": "India",
+    "motivation": "for studies of the structure and function of the ribosome",
+    "category": "chemistry",
+    "year": "2009"
+  },
+  {
+    "name": "Kailash",
+    "surname": "Satyarthi",
+    "born": "1954-01-11",
+    "died": "0000-00-00",
+    "birthplace": "India",
+    "motivation": "for their struggle against the suppression of children and young people and for the right of all children to education",
+    "category": "peace",
+    "year": "2014"
+  },
+  {
+    "name": "Abhijit",
+    "surname": "Banerjee",
+    "born": "1961-02-21",
+    "died": "0000-00-00",
+    "birthplace": "India",
+    "motivation": "for their experimental approach to alleviating global poverty",
+    "category": "economics",
+    "year": "2019"
+  }
+]

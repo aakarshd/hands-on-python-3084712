@@ -2,33 +2,59 @@ import csv
 import json
 from pprint import pprint
 
-EINSTEIN = {
-    "birthplace": "Germany",
-    "name": "Albert",
-    "surname": "Einstein",
-    "born": "1879-03-14",
-    "category": "physics",
-    "motivation": "for his services to Theoretical Physics...",
-}
+# EINSTEIN = {
+#     "birthplace": "Germany",
+#     "name": "Albert",
+#     "surname": "Einstein",
+#     "born": "1879-03-14",
+#     "category": "physics",
+#     "motivation": "for his services to Theoretical Physics...",
+# }
 
-einstein_json = json.dumps(EINSTEIN)
-back_to_dict = json.loads(einstein_json)
-print(einstein_json)
-pprint(back_to_dict)
+# # einstein_json = json.dumps(EINSTEIN)
+# # back_to_dict = json.loads(einstein_json)
+# # print(einstein_json)
+# # pprint(back_to_dict)
 
-with open("laureates.csv", "r") as f:
-    reader = csv.DictReader(f)
-    laureates = list(reader)
+# with open("laureates.csv", "r") as f:
+#     reader = csv.DictReader(f)
+#     laureates = list(reader)
+
+# # 1. you can access parts of strings the same way you do lists
+# #      hey[2] == "y"
+# # 2. You can add to a list using
+# #      my_list.append("something")
+
+# laureates_beginning_with_a = []
+# # LinkedIn learner code here
+# for laureate in laureates:
+#     if laureate["name"].upper().startswith("ABHI"):
+#         laureates_beginning_with_a.append(laureate)
+
+# print(laureates_beginning_with_a)
 
 
-# 1. you can access parts of strings the same way you do lists
-#      hey[2] == "y"
-# 2. You can add to a list using
-#      my_list.append("something")
+# with open("laureates.json", "w") as f:
+#     json.dump(laureates_beginning_with_a, f, indent=2)
 
-laureates_beginning_with_a = []
-# LinkedIn learner code here
+with open("laureates.csv",'r') as  f:
+  laureates_list = csv.DictReader(f)
+  dict = list(laureates_list)
+  print(dict)
+
+Favorite_list = []
+for laureate in dict:
+    if laureate["birthplace"].upper().find("INDIA") != -1:
+        Favorite_list.append(laureate)
 
 
-with open("laureates.json", "w") as f:
-    json.dump(laureates_beginning_with_a, f, indent=2)
+tojson = json.dumps(list(Favorite_list), indent=2)
+
+pprint(tojson)
+
+with open("Favorite_laureates.json", "w") as f:
+    f.write(tojson)
+
+# Count the number of elements in JSON
+count = len(Favorite_list)
+print(f"Number of favorite laureates: {count}")
